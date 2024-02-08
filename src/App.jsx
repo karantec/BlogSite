@@ -25,9 +25,6 @@ const App = () => {
             <PostCard key={index} post={post} />
           ))}
         </Grid>
-        {/* <Grid
-        container spacing={5}
-         className={classes.mainGrid}></Grid> */}
       </Container>
     </ThemeProvider>
   )
